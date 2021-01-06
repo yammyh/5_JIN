@@ -8,7 +8,11 @@
 	<!---CSS--->
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<!--------script---------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 <header class="wrapper">
@@ -99,19 +103,22 @@
     </main>
 <aside>
 	<h2>WordPressのテーマ「JIN」</h2>
-	<div class="theme aside-item">
-		<img src="images/demo_banner.png" alt="">
-		<p class="explain">「アフィリエイト」と「SEO」に必要な機能を全て詰め込んだテーマが完成。売れるサイト作りを確実に後押しします。</p>
+	<div class="aside-item">
+      <div class="theme aside-inner">
+		 <img src="images/demo_banner.png" alt="">
+        <p class="explain">「アフィリエイト」と「SEO」に必要な機能を全て詰め込んだテーマが完成。売れるサイト作りを確実に後押しします。</p>
         <div class="download"><a href="#">今すぐダウンロード</a></div>
-	</div>
-	<div class="prof aside-item">
-		<img src="images/JINpic.jpg" alt="JINの画像">
-	  <p >JIN</p>
-		<p class="theme" style="color:#919191">WordPress Template</p>
-		<p class="explain">読む人も、書く人も、すべてを考え抜いたデザインを実現。真の使いやすさを追求したWordPressテーマです。 「アフィリエイト」と「SEO」に必要なものは、すべて詰め込みました。売れるサイト作りを確実に後押しします。</p>
-        <div class="viewmore"><a href="#">詳しく見る</a>
-		</div>
-		<div class="sns">
+      </div>
+	</div><!---------------THEME---------------->
+	<div class="aside-item">
+      <div class="prof aside-inner">
+		  <img src="images/JINpic.jpg" alt="JINの画像">
+        <p >JIN</p>
+        <p class="theme" style="color:#919191">WordPress Template</p>
+        <p class="explain">読む人も、書く人も、すべてを考え抜いたデザインを実現。真の使いやすさを追求したWordPressテーマです。 「アフィリエイト」と「SEO」に必要なものは、すべて詰め込みました。売れるサイト作りを確実に後押しします。</p>
+        <div class="viewmore"><a href="#">詳しく見る</a></div>
+      </div>
+	<div class="sns">
 		<p>＼Follow me!／</p>
 		<ul class="sns-icon">
 			<li class="icon"></li>
@@ -120,7 +127,69 @@
 			<li class="icon"></li>
 		</ul>
 		</div>
-	</div>
+	</div><!---------------PROF---------------->
+	<div class="aside-item">
+	 <div class="recent aside-inner">
+			<h3>RECENT POST</h3>
+			<div class="post-item">
+				<a href="#">
+					<img src="#" alt="">
+					<p class="clear-fix">JINはデザインインポートに対応！自分好みのデザインに「着せ替え」できる</p>
+				</a>
+			  </div>
+			<div class="post-item">
+				<a href="#">
+					<img src="#" alt="">
+					<p class="clear-fix">この記事を書いた人｜ライタープロフィールを作成できる</p>
+				</a>
+			  </div>
+			<div class="post-item">
+				<a href="#">
+					<img src="#" alt="">
+					<p class="clear-fix">「コンテンツマガジン」でユーザーが回避しやすい記事リストへ！</p>
+				</a>
+			  </div>
+			<div class="post-item">
+				<a href="#">
+					<img src="#" alt="">
+					<p class="clear-fix">JINはデザインインポートに対応！自分好みのデザインに「着せ替え」できる</p>
+				</a>
+			  </div>
+			<div class="post-item">
+				<a href="#">
+					<img src="#" alt="">
+					<p class="clear-fix">この記事を書いた人｜ライタープロフィールを作成できる</p>
+				</a>
+			  </div>
+			<div class="post-item">
+				<a href="#">
+					<img src="#" alt="">
+					<p class="clear-fix">「コンテンツマガジン」でユーザーが回避しやすい記事リストへ！</p>
+				</a>
+			  </div>
+		  </div>
+	</div><!---------------RECENT POST---------------->
+	<div class="aside-item">
+		<div class="categolly aside-inner">
+			<h3>CATEGOLLY</h3>
+			<form action="">
+			<select name="categolly" id="categolly">
+				 <option value="" style="display: none;">選択してください</option>
+				<option value="editor">エディタ</option>
+				<option value="design">デザイン</option>
+				<option value="feature">特徴</option>
+			</select>
+			</form>
+		</div>
+	</div><!---------------CATEGORY---------------->
+	<div class="aside-item">
+		<div class="aside-inner">
+			<h3>TAG</h3>
+			<a class="tag"><i class="fas fa-tag"></i>
+				SEO
+			</a>
+		</div>
+	</div><!---------------TAG---------------->
 	  </aside>
     </div>
 </body>
